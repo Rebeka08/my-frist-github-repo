@@ -3,8 +3,24 @@
     padding: 0;
 
 }
+.gitto{
+    width: 80%;
+    height: 200px;
+    background-color: darkslategray;
+    margin: 0 auto;
+    padding: 100px ;
+
+}
 h3{
-    font-size: large;
+    font-size: 45px;
+    line-height: 85px;
     color: tomato;
-    background-color: aqua;
+    text-transform: uppercase;
+    text-decoration: underline;
+    
+}
+p{
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
 }
