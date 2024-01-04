@@ -16,9 +16,13 @@ h3{
     line-height: 40px;
     color: tomato;
     text-transform: uppercase;
-    text-decoration: underline;
+    border-bottom: 2px solid tomato;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    text-align: center;
     
 }
+
 p{
     font-size: 18px;
     line-height: 28px;
@@ -36,30 +40,47 @@ margin: 0px auto;
     height: 250px;
     background-color: antiquewhite;
 }
-.gitto-sarano .gitto-2 h3{
+.gitto-sarano .gitto-2 h5{
     margin-left: -30px;
-    background-color: gold;
+    color: rgb(182, 39, 7);
+    border: none;
+    font-size: 25px;
+    line-height: 35px;
+    text-transform: uppercase;
 }
 
 .gitto-sarano .gitto-2 li{
     list-style-type: decimal-leading-zero;
     font-size: 18px;
     line-height: 28px;
+    color: #000;
    
+}
+.sad{
+    width: 93%;
+    height: 400px;
+    margin: 0px auto;
+    background-color: darkslategray;
+
+
 }
 .lapha{
     display: flex;
-    justify-content: space-around;
-    width: 93%;
+    justify-content: center;
+    width: 90%;
     margin: 0px auto;
+
 }
 .lapha  .gitto-3{
     width: 40%;
-    height: 250px;
+    height: 200px;
+
+    
+
 }
 .lapha  .gitto-3 img{
     width: 100%;
-    height: 100%;
+    height: 250px;
     border-radius: 10px;
     box-shadow: 1px 3px 6px .6px;
 }
@@ -72,7 +93,7 @@ margin: 0px auto;
     border-radius: 10px;
     background-color: tomato;
     box-shadow: 1px 3px 6px .6px;
-   transition: .6s;
+    transition: .6s;
 
 }
 .lapha  .gitto-3 ul:hover{
